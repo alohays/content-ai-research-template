@@ -1,5 +1,5 @@
-from project_name.base import NAME
+from content_ai_research_template.base import NAME
 
 
 def test_base():
-    assert NAME == "project_name"
+    assert NAME == "content_ai_research_template"
