@@ -1,15 +1,11 @@
 
-# Python Project Template
+# Content AI Research Template
 
-A low dependency and really simple to start project template for Python Projects.
-
-See also 
-- [Flask-Project-Template](https://github.com/rochacbruno/flask-project-template/) for a full feature Flask project including database, API, admin interface, etc.
-- [FastAPI-Project-Template](https://github.com/rochacbruno/fastapi-project-template/) The base to start an openapi project featuring: SQLModel, Typer, FastAPI, JWT Token Auth, Interactive Shell, Management Commands.
+A low dependency and really simple to start project template for Content AI Research Projects.
 
 ### HOW TO USE THIS TEMPLATE
 
-> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/rochacbruno/python-project-template/generate)** feature.
+> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/alohays/content-ai-research-template/generate)** feature.
 
 1. Click on **[Use this template](https://github.com/alohays/content-ai-research-template/generate)**
 3. Give a name to your project  
@@ -38,7 +34,7 @@ See also
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
-> If you want to contribute to this template please open an [issue](https://github.com/rochacbruno/python-project-template/issues) or fork and send a PULL REQUEST.
+> If you want to contribute to this template please open an issue or fork and send a PULL REQUEST.
 
 
 ---
