@@ -20,8 +20,8 @@ original_author="author_name"
 original_name="project_name"
 original_urlname="project_urlname"
 original_description="project_description"
-# for filename in $(find . -name "*.*") 
-for filename in $(git ls-files) 
+# for filename in $(find . -name "*.*")
+for filename in $(git ls-files)
 do
     sed -i "s/$original_author/$author/g" $filename
     sed -i "s/$original_name/$name/g" $filename
@@ -30,7 +30,7 @@ do
     echo "Renamed $filename"
 done
 
-mv content_ai_research_template $name
+mv project_name $name
 
 # This command runs only once on GHA!
 rm -rf .github/template.yml
