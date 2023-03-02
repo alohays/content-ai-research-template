@@ -56,4 +56,4 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         && \
     $PIP_INSTALL .
 
-CMD ["content_ai_research_template"]
+CMD ["project_name"]

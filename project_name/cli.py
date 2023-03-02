@@ -1,4 +1,4 @@
-"""CLI interface for content_ai_research_template project.
+"""CLI interface for project_name project.
 
 Be creative! do whatever you want!
 
@@ -12,7 +12,7 @@ Be creative! do whatever you want!
 def main():  # pragma: no cover
     """
     The main function executes on commands:
-    `python -m content_ai_research_template` and `$ content_ai_research_template `.
+    `python -m project_name` and `$ project_name`.
 
     This is your program's entry point.
 

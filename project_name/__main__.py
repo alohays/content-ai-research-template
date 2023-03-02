@@ -1,4 +1,4 @@
-"""Entry point for content_ai_research_template."""
+"""Entry point for project_name."""
 
 from .cli import main  # pragma: no cover
 

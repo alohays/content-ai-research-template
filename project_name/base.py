@@ -1,7 +1,7 @@
 """
-content_ai_research_template base module.
+project_name base module.
 
-This is the principal module of the content_ai_research_template project.
+This is the principal module of the project_name project.
 here you put your main classes and objects.
 
 Be creative! do whatever you want!
@@ -14,4 +14,4 @@ and then choose `flask` as template.
 """
 
 # example constant variable
-NAME = "content_ai_research_template"
+NAME = "project_name"
