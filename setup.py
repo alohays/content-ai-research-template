@@ -30,8 +30,8 @@ def read_requirements(path):
 
 
 setup(
-    name="content_ai_research_template",
-    version=read("content_ai_research_template", "VERSION"),
+    name="project_name",
+    version=read("project_name", "VERSION"),
     description="Awesome content_ai_research_template created by alohays",
     url="https://github.com/alohays/content-ai-research-template/",
     long_description=read("README.md"),
@@ -40,7 +40,7 @@ setup(
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["content_ai_research_template = content_ai_research_template.__main__:main"]
+        "console_scripts": ["project_name = project_name.__main__:main"]
     },
     extras_require={"test": read_requirements("requirements-test.txt")},
 )
