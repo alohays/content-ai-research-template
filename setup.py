@@ -32,11 +32,11 @@ def read_requirements(path):
 setup(
     name="project_name",
     version=read("project_name", "VERSION"),
-    description="Awesome content_ai_research_template created by alohays",
+    description="project_description",
     url="https://github.com/alohays/content-ai-research-template/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="alohays",
+    author="author_name",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
