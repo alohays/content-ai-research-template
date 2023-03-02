@@ -1,4 +1,4 @@
-from content_ai_research_template.base import NAME
+from project_name.base import NAME
 
 
 def test_base():
